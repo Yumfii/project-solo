@@ -1,0 +1,42 @@
+.our-yachts {
+  margin-top: 280px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-yachts {
+    margin-top: 320px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .our-yachts {
+    margin-top: 140px;
+  }
+}
+
+.our-yachts-title {
+  width: 714px;
+  height: 96px;
+  left: calc(50% - 714px / 2);
+  padding-bottom: 60px;
+
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.our-yachts-button {
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 16px 40px;
+  width: 179px;
+  height: 52px;
+  line-height: 1.1;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fbfbfb;
+  background-color: #0e1823;
+}

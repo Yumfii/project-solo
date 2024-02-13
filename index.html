@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/css/about-us.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/our-yachts.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/header.css" />
+    <link rel="stylesheet" href="src/css/hero.css" />
+    <link rel="stylesheet" href="src/css/footer.css" />
+  </head>
+  <body>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">
+            Explore the High Seas with Our Luxury Yacht Rentals
+          </h1>
+          <p class="hero-text">
+            Experience the freedom and luxury of yachting on the open seas. Choose
+            from our top-of-the-line yachts and embark on an unforgettable journey
+            surrounded by breathtaking views and state-of-the-art amenities.
+          </p>
+          <a href="#yachts" class="hero-button">Yacht rental</a>
+        </div>
+      </section>
+
+      <!-- ABOUT US -->
+      <section class="section about-section">
+        <div class="container about-container">
+          <div class="about-container-text">
+            <h2 class="about-title">
+              YachtJet fleet is here to take you on the ultimate adventure
+            </h2>
+            <div class="about-text-container">
+              <h3 class="about-text-title">
+                From spacious decks to state-of-the-art technology, our yachts are
+                designed to provide the perfect blend of luxury and functionality.
+              </h3>
+              <p class="about-text">
+                Take a look at our selection below and choose the yacht that matches your needs and preferences.No matter which yacht you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now and get ready for an unforgettable adventure on the high seas.
+              </p>
+            </div>
+          </div>
+          <div class="about-img-container">
+              <picture>
+                <source
+                  srcset="                
+                  /src/img/about-us/modern-yacht-pc.jpg 1x,
+                  /src/img/about-us/modern-yacht-pc@2.jpg 2x"
+                  media="(min-width: 1280px) and (max-width: 1399px)"
+                />
+                <source
+                  srcset="
+                  /src/img/about-us/modern-yacht-tablet.jpg 1x,
+                  /src/img/about-us/modern-yacht-tablet@2.jpg 2x
+                  "
+                  media="(min-width: 768px) and (max-width: 1279px)"
+                />
+                <source
+                  srcset="
+                    /src/img/about-us/modern-yacht-mobile.jpg 1x,
+                    /src/img/about-us/modern-yacht-mobile@2.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                class="about-img"
+                srcset="
+                /src/img/about-us/modern-yacht.jpg    1x,
+                /src/img/about-us/modern-yacht@2.jpg    2x
+                "
+                src="/src/img/about-us/modern-yacht.jpg"
+                alt="A moder yacht"
+                width="1340"
+                height="470"
+              />
+              </picture>
+          </div>
+        </div>
+      </section>
+
+            <!-- OUR YACHTS -->
+      <section class="our-yachts">
+        <div>
+          <h2 class="our-yachts-title">
+            Choose your dream yacht and sail away into the sunset
+          </h2>
+          <div></div>
+          <button class="our-yachts-button">Yacht rental</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
