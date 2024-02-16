@@ -4,11 +4,6 @@
   z-index: 1;
 }
 
-#about-cont {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .about-container {
   display: flex;
   flex-direction: column;
@@ -123,7 +118,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  #about-container {
+  #about-cont {
     min-width: 1340px;
   }
 
