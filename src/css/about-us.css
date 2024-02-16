@@ -1,4 +1,5 @@
 .about-section {
+  height: 810px;
   padding-top: 0;
   position: relative;
   z-index: 1;
@@ -24,7 +25,7 @@
   line-height: 1;
   letter-spacing: -0.02em;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -63,6 +64,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .about-section {
+    height: 1017px;
+  }
+
   .about-container {
     margin-top: -67px;
     margin-bottom: 150px;
@@ -70,15 +75,16 @@
 
   .about-title {
     font-size: 48px;
-    margin-bottom: 50px;
+    margin: 50px 0 50px 32px;
+    padding: 0;
     line-height: 1;
-    margin-left: 32px;
     max-width: 536px;
   }
 
   .about-text-container {
     max-width: 389px;
     margin-left: 32px;
+    padding: 0;
   }
 
   .about-text-title {
@@ -92,6 +98,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .about-section {
+    height: 878px;
+  }
+
   .about-upper-container {
     display: flex;
     flex-direction: row;
@@ -105,30 +115,32 @@
     font-size: 48px;
     line-height: 100%;
     max-width: 537px;
-    margin-bottom: 40px;
     margin-right: 189px;
     margin-left: 50px;
   }
 
   .about-text-container {
     max-width: 354px;
-    margin-left: 0;
-    margin-top: 40px;
+    margin: 50px 50px 100px 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .about-section {
+    height: 832px;
+  }
+
   #about-cont {
     min-width: 1340px;
   }
 
   .about-title {
+    width: 537px;
     margin-right: 299px;
   }
 
   .about-text-container {
     max-width: 404px;
-    margin-bottom: 69px;
     margin-left: auto;
     margin-right: 50px;
   }
